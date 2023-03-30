@@ -1,0 +1,506 @@
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+
+.frame-1 {
+  background: #ffffff;
+  width: 893px;
+  height: 1263px;
+  position: relative;
+  overflow: hidden;
+}
+
+.side-panel {
+  width: 349px;
+  height: 1275px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.rectangle-1 {
+  background: #979797;
+  width: 349px;
+  height: 1275px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.line-1 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 8px 0 0 0;
+  width: 348px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 410px;
+}
+
+.line-2 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 8px 0 0 0;
+  width: 348px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 595px;
+}
+
+.about-me {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 662px;
+}
+
+.line-4 {
+  position: absolute;
+  left: 200px;
+  top: 682px;
+  overflow: visible;
+}
+
+.english--b2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 743px;
+}
+.german--a2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 95px;
+  top: 777px;
+}
+
+
+.desc1 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 855px;
+}
+
+.mv-photo {
+  width: 235px;
+  height: 292px;
+  position: absolute;
+  left: 55px;
+  top: 60px;
+}
+
+.contacts {
+  width: 250px;
+  height: 131px;
+  position: absolute;
+  left: 63px;
+  top: 433px;
+  overflow: hidden;
+}
+
+._099-999-99-99 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 4px;
+}
+
+.ukraine--kyiv {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 106px;
+}
+
+.mail-gmail-com {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 40px;
+  top: 55px;
+}
+
+.---icon--phone- {
+  position: absolute;
+  left: 6px;
+  top: 3px;
+  overflow: visible;
+}
+
+.---icon--envelope-closed- {
+  position: absolute;
+  left: 1px;
+  top: 60px;
+  overflow: visible;
+}
+
+.---icon--map- {
+  position: absolute;
+  left: 1px;
+  top: 103px;
+  overflow: visible;
+}
+
+.skills {
+  width: 360px;
+  height: 145px;
+  position: absolute;
+  left: 475px;
+  top: 1059px;
+  overflow: hidden;
+}
+
+.textbox {
+  width: 353px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+
+.skills2 {
+  color: #000000;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 75px;
+  top: -4px;
+}
+
+.line-3 {
+  border-style: solid;
+  border-color: #979797;
+  border-width: 3px 0 0 0;
+  width: 200px;
+  height: 0px;
+  position: absolute;
+  left: 25px;
+  top: 30px;
+}
+
+.c- {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 46px;
+}
+
+.html-css {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 50px;
+}
+
+.-net {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 84px;
+}
+
+.c-- {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 121px;
+}
+
+.javaa {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 84px;
+}
+
+.python {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 121px;
+}
+
+.work-experience {
+  width: 469px;
+  height: 450px;
+  position: absolute;
+  left: 399px;
+  top: 297px;
+  overflow: hidden;
+}
+
+.title {
+  width: 466px;
+  height: 32px;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: hidden;
+}
+
+.work-experience2 {
+  color: #000000;
+  text-align: left;
+  font: 600 28px 'Inter', sans-serif;
+  position: absolute;
+  left: 100px;
+  top: -6px;
+}
+
+.line-32 {
+  border-style: solid;
+  border-color: #979797;
+  border-width: 3px 0 0 0;
+  width: 151.12px;
+  height: 0px;
+  position: absolute;
+  left: 135px;
+  top: 30px;
+}
+
+.project1 {
+  width: 466px;
+  height: 268px;
+  position: absolute;
+  left: 3px;
+  top: 53px;
+  overflow: hidden;
+}
+
+._datesjob1 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 125px;
+  top: 11px;
+}
+
+.google {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+
+.desc3 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 52px;
+}
+
+.project2 {
+  width: 466px;
+  height: 196px;
+  position: absolute;
+  left: 6px;
+  top: 140px;
+  overflow: hidden;
+}
+
+._datesjob2 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 115px;
+  top: 11px;
+}
+
+.alphabet {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+
+.desc2 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 52px;
+  width: 426px;
+}
+
+.project3 {
+  width: 466px;
+  height: 196px;
+  position: absolute;
+  left: 6px;
+  top: 250px;
+  overflow: hidden;
+}
+
+._datesjob3 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 115px;
+  top: 11px;
+}
+
+.apple {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+
+.desc4 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 52px;
+  width: 426px;
+}
+
+.education {
+    width: 488px;
+    height: 163px;
+    position: absolute;
+    left: 400px;
+    top: 773px;
+}
+
+.textbox2 {
+  width: 466px;
+  height: 32px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  overflow: hidden;
+}
+
+.education2 {
+  color: #000000;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 125px;
+  top: -4px;
+}
+
+.line-33 {
+  border-style: solid;
+  border-color: #979797;
+  border-width: 3px 0 0 0;
+  width: 240px;
+  height: 0px;
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+
+.kyiv-national-university-of-trade-and-economics {
+  color: #000000;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 56px;
+}
+
+._2021-2025 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 331px;
+  top: 65px;
+}
+
+.bachelor-of-software-engineering {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 121px;
+}
+
+.name---position {
+  width: 355px;
+  height: 200px;
+  position: absolute;
+  left: 450px;
+  top: 31px;
+  overflow: hidden;
+}
+
+.vova-m {
+  color: #000000;
+  text-align: left;
+  font: 900 italic 64px 'Inter', sans-serif;
+  position: absolute;
+  top: 3px;
+}
+
+.textbox3 {
+  width: 307px;
+  height: 32px;
+  position: absolute;
+  left: 4px;
+  top: 168px;
+  overflow: hidden;
+}
+
+.-net-developer {
+  color: #000000;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 3px;
+}
